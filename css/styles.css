@@ -136,7 +136,7 @@ input[type]:focus {
     display: none;
 }
 
-@media(max-width: 1385px) {
+@media(max-width: 1000px) {
     .container {
         display: none;
     }
@@ -246,6 +246,9 @@ input[type]:focus {
         /* position: absolute; */
         left: 16rem;
         /* top: 1.7; */
+    }
+    body{
+        background-color: var(--gradient-b-from);
     }
 }
 
