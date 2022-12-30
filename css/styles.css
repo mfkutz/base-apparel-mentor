@@ -144,6 +144,9 @@ input[type]:focus {
     .container-mobile {
         display: block;
         background-color: #fff9f9;
+       /*  width: 100%;
+        align-items: center; */
+        /* min-width: 375px; */
         
     }
 
@@ -248,9 +251,9 @@ input[type]:focus {
         left: 16rem;
         /* top: 1.7; */
     }
-   /*  body{
-        background-color: var(--gradient-b-from);
-    } */
+    body{
+        background-color: #fff9f9;;
+    }
 }
 
 
